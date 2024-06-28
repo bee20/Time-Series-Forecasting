@@ -2,8 +2,8 @@
 
 Some insights:
 
-ARIMA/ SARIMA  vs ETS- < br / >
-ARIMA/ SARIMA usually used when series is stationary, if not stationary than convert to stationary. < br / >
+ARIMA/ SARIMA  vs ETS- <br/>
+ARIMA/ SARIMA usually used when series is stationary, if not stationary than convert to stationary. <br/>
 ETS mainly used when trend seasonality is there, is also more easy to interpret as it is able to decompose into Level, Trend, Seasonality. < br / >
 
 
