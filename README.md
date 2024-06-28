@@ -2,7 +2,7 @@
 
 Some insights:
 
-## AR/ ARIMA/ SARIMA  vs ETS (Simple Exponential/ Holt/ Holt Winter and others) vs UCM (structural model): <br/>
+## AR/ ARIMA/ SARIMA  <br/> vs  <br/> ETS (Simple Exponential/ Holt/ Holt Winter and others)  <br/> vs  <br/> UCM (structural model): <br/>
 1. ARIMA/ SARIMA usually used when series is stationary, if not stationary than convert to stationary.
 2. ETS mainly used when trend seasonality is there, is also more easy to interpret as it is able to decompose into Level, Trend, Seasonality.
 3. In ARIMA you can add exogenous variables / X variables/ Independant variables but in ETS we can not (although some ETS models with exogenous variables are in progress which are not stable).
