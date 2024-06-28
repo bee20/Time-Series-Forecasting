@@ -9,7 +9,10 @@ Some insights:
 4. ETS are state space models because the forecasting equation can be represented as state space equations. Wherein, the observed component is y series and the unobserved components are level, trend, season.
 5. Further, UCM (structural time series models) are also state space models but can include exogenous variables and can be considered like regression. That is now we can have multivariate data instead of univariate.
 6. UCMs are easily constructed in state space form. This enables the application of the Kalman filter algorithms, through which maximum likelihood estimation of the structural parameters are obtained, optimal predictions are made about the future state vector and the time series itself, and smoothed estimates of the unobserved components can be determined.
+7. These are general guidelines, however, final model can be selected using error (like RMSE), AIC, BIC.
+8. There are some common models which are both ETS and ARIMA, Example: ETS(A,N,N)	= ARIMA(0,1,1)
 
+   
 ## Some errors while modelling:<br/>
 1. If error with .predict() -> index mismatch with test data and predicted series ->
 2. check for date time format and
